@@ -1,0 +1,24 @@
+{
+    "name": "codeedu/laravel-queue-standalone",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Luiz Carlos",
+            "email": "argentinaluiz@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/container": "~1.0",
+        "psr/simple-cache": "~1.0",
+        "nesbot/carbon": "^1.26.3",
+        "opis/closure": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Illuminate\\": "src"
+        },
+        "files": [
+            "src/Support/helpers.php"
+        ]
+    }
+}
